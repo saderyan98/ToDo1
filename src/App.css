@@ -45,7 +45,11 @@
   border: 1px solid #90C4C3;
   border-radius: 6px;
   font-family:'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  
+  caret-color: transparent
+}
+
+::selection {
+  background-color: transparent;
 }
 
 .icon {
