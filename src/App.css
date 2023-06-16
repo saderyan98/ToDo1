@@ -1,38 +1,73 @@
 .App {
-  text-align: center;
+  background-color: #D1E8E7;
+  padding: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.todo-form {
+  margin-bottom: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.todo-input {
+  width: 50%;
+  padding: 8px;
+  border: 1px solid #90C4C3;
+  border-radius: 4px;
+  font-size: 14px;
+  background-color: #EAF6F6;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.todo-btn {
+  padding: 10px 20px;
+  background-color: #5CA7A6;
+  border: none;
+  border-radius: 4px;
+  color: #FFFFFF;
+  font-size: 14px;
+  cursor: pointer;
+  transform: rotate(360deg);
+}
+
+.todo-wrapper {
+  background-color: #F2FAFA;
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.Todo {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between; /* Add justify-content property */
+  width: 30%;
+  padding-left: 8px;
+  padding-right: 8px;
+  border: 1px solid #90C4C3;
+  border-radius: 6px;
+  font-family:'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
 }
 
-.App-link {
-  color: #61dafb;
+.icon {
+  color:#5CA7A6;
+  ;
 }
 
-@keyframes App-logo-spin {
+h1 {
+  color:#5CA7A6;
+}
+
+.completed{
+  text-decoration:line-through;
+}
+
+
+
+/* @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
-}
+} */
